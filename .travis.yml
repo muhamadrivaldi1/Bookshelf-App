@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "14"              # Versi Node.js yang ingin Anda gunakan (sesuaikan dengan versi proyek Anda)
+  
+# Perintah untuk menginstal dependencies
+install:
+  - npm install
+  
+# Perintah untuk menjalankan script, seperti linting dan testing
+script:
+  - npm run lint      # Jika Anda memiliki linting, seperti ESLint (opsional)
+  - npm test          # Menjalankan script 'npm test' untuk pengujian otomatis
