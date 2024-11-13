@@ -1,0 +1,13 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "devDependencies": {
+      "jest": "^26.6.0",
+      "eslint": "^7.12.1"
+    }
+  }
+  
